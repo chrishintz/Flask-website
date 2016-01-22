@@ -1,0 +1,151 @@
+/* Notes:
+
+  1) Make everything on one-page (scrolling).
+    a) Next section is my projects (have a link on the Developer word in the header)
+      aa) Do either in box or rectangle format (box would have name of project and then hover over would display a short summary of the project)
+
+    b) Following section is about me (have a link on the CPA word in the header to take to that section)
+      bb) Do with centered paragraph
+
+    c) Section of pictures with Pawpea
+      (4 pictures (3 columns each)) [1 or 2 rows]
+
+  2) In the about me, mention the blog which links to a 2nd page with the blog content
+
+  3) My Projects font to dark gray
+
+  4) Always have the projects in group of 3
+
+  5) Bottom left box, if remains and is bold, could move to the center box
+
+*/
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+#headerwrap {
+  background: url("https://s3-us-west-2.amazonaws.com/personal-website-hintz/cannon_beach.JPG");
+  margin-top: -70px;
+  padding-top: 250px;
+  text-align: center;
+  min-height: 750px;
+  width: 100%;
+  background-size: cover;
+}
+
+#headerwrap h1 {
+  color: #ffffff;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  letter-spacing: 3px;
+  font-size: 80px;
+  font-weight: bold;
+}
+
+#headerwrap h4 {
+  font-weight: 400;
+  color: #ffffff;
+}
+
+#social {
+  font-size: 40px;
+  color: #CEC5B4;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #f2f2f2;
+}
+
+#social i {
+  font-size: 40px;
+  color: #4a4a4a;
+}
+
+#footerwrap {
+  padding-top: 70px;
+  padding-bottom: 50px;
+  background-color: #2f2f2f;
+}
+
+#footerwrap p {
+  color: #f2f2f2;
+  margin-left: 10px;
+  font-size: 20px;
+}
+
+.navbar-transparent {
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.centered {
+  text-align: center;
+}
+
+.header-projects {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  color: #2f2f2f;
+}
+
+.mb {
+  margin-bottom: 20px;
+}
+
+.mt {
+  margin-top: 20px;
+}
+
+.gallery {
+  margin-top: 20px;
+}
+
+.img-adjust {
+  /*-webkit-filter: grayscale(90%);
+  filter: grayscale(90%);*/
+  /*-webkit-filter: blur(4px);
+  filter: blur(4px);*/
+}
+
+span.text-content {
+  background: rgba(0,0,0,0.5);
+  color: white;
+  cursor: pointer;
+  height: 25%;
+  left: 5%;
+  position: absolute;
+  bottom: 2%;
+  width: 90%;
+  opacity: 0;
+  -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  transition: opacity 500ms;
+}
+
+.gallery:hover span.text-content {
+  opacity: 1;
+}
+
+span.text-content span {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.whole-width {
+  background-color: #f2f2f2;
+}
+
+.about-me {
+  margin-bottom: 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  color: #2f2f2f;
+}
+
+.about-me-paragraph {
+  text-align: justify;
+}
