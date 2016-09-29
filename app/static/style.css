@@ -91,6 +91,13 @@ body {
   color: #2f2f2f;
 }
 
+.header-info {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-style: oblique;
+  color: #2f2f2f;
+}
+
 .mb {
   margin-bottom: 60px;
 }

@@ -17,3 +17,6 @@ Requirements
   v) Your current and past projects and/or work history
   vi) A custom domain
 7) Host your application on Heroku
+
+Start application:
+1) foreman start
